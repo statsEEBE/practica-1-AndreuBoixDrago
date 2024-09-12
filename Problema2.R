@@ -1,5 +1,7 @@
 #Codigo para problema 2
 
-mis_dades <- mtcars
+rm(list=ls()) 
 
-hist(mis_dades$mpg)
+data <- mtcars
+
+hist(data$mpg)
